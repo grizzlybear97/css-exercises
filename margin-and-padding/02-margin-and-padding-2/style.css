@@ -5,10 +5,16 @@ body {
 
 .card {
   width: 400px;
+  padding: 20px;
   background: #fff;
   margin: 16px auto;
 }
-
+.title, 
+.content,
+.button-container {
+  padding: 10px;
+  margin: 20px;
+}
 .title {
   background: #e3f4ff;
 }
@@ -18,10 +24,16 @@ body {
 }
 
 .button-container {
+  padding-left: 30%;
   background: #e3f4ff;
+}
+.text {
+  margin-left: 30px;
 }
 
 button {
+  padding: 10px;
+  display: block;
   background: white;
   border: 1px solid #eee;
 }
